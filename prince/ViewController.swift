@@ -33,9 +33,28 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         annotation2.title = "Austin Animal Center"
         annotation2.subtitle = "A, 7201 Levander Loop, Austin, TX 78702"
         
+        let annotation3 = MKPointAnnotation()
+        annotation3.coordinate = CLLocationCoordinate2D(latitude: 30.30103218156622, longitude: -97.82227804084191)
+        annotation3.title = "Hill County Conservancy"
+        annotation3.subtitle = "5524 Bee Caves Rd g4, Austin, TX 78746"
+        
+        let annotation4 = MKPointAnnotation()
+        annotation4.coordinate = CLLocationCoordinate2D(latitude: 30.287506640260652,  longitude: -97.77002432361017)
+        annotation4.title = "Zilker Botanical Garden"
+        annotation4.subtitle = "2220 Barton Springs Rd, Austin, TX 78746"
+        
+        let annotation5 = MKPointAnnotation()
+        annotation5.coordinate = CLLocationCoordinate2D(latitude: 30.267350942162132,  longitude: -97.70695794934764)
+        annotation5.title = "Meals on Wheels Austin"
+        annotation5.subtitle = "3227 E 5th St., Austin, TX 78702"
+        
         mapView.addAnnotation(annotation)
         mapView.addAnnotation(annotation1)
         mapView.addAnnotation(annotation2)
+        mapView.addAnnotation(annotation3)
+        mapView.addAnnotation(annotation4)
+        mapView.addAnnotation(annotation5)
+        
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
