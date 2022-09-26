@@ -21,8 +21,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 30.510799 , longitude: -97.667851)
         annotation.title = "Round Rock Area Serving Center"
-        annotation.subtitle = "1099 E. Main Street, Round rock"
+        annotation.subtitle = "1099 E. Main Street, Round Rock"
+        
+        let annotation1 = MKPointAnnotation();
+        annotation1.coordinate = CLLocationCoordinate2D(latitude: 30.203676, longitude: -97.709829)
+        annotation1.title = "Central Texas Food Bank"
+        annotation1.subtitle = "6500 Metropolis Dr., Austin"
+        
         mapView.addAnnotation(annotation)
+        mapView.addAnnotation(annotation1)
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
