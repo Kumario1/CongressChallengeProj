@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e980e0349f6ca384de831b9092e10aa3ad6"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98184624c537ba9f40485b99066ae531cf"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e983896a62537b74d631b4c37259ac742ac"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98c55f754f2a4256631cf6e7955c79207c"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9881644adaf2ad701878e9176138fbdacd"
+    }
+  ],
+  "containerPath" : "/Users/raprasad/Desktop/untitled folder 2/prince/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/raprasad/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/raprasad/Library/Developer/Xcode/DerivedData/Pods-dgnetzyzeepdzbdglopbqruinbqq/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/raprasad/Library/Developer/Xcode/DerivedData/Pods-dgnetzyzeepdzbdglopbqruinbqq/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
