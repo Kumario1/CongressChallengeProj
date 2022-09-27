@@ -25,7 +25,7 @@
 		574F227216C4BF66B07DAC0D /* Pods-princeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-princeUITests.release.xcconfig"; path = "Target Support Files/Pods-princeUITests/Pods-princeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5FD18C3B32F50BD73A770DCC /* Pods-princeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-princeTests.debug.xcconfig"; path = "Target Support Files/Pods-princeTests/Pods-princeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9071A0C2118A0A8481D04CBD /* Pods_princeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_princeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9987C31528886CBC00892EB4 /* prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9987C31528886CBC00892EB4 /* Vodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9987C31828886CBC00892EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9987C31A28886CBC00892EB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9987C31C28886CBC00892EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		9987C31628886CBC00892EB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9987C31528886CBC00892EB4 /* prince.app */,
+				9987C31528886CBC00892EB4 /* Vodo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			);
 			name = prince;
 			productName = prince;
-			productReference = 9987C31528886CBC00892EB4 /* prince.app */;
+			productReference = 9987C31528886CBC00892EB4 /* Vodo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -432,7 +432,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prince.prince;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Vodo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +461,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prince.prince;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Vodo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
